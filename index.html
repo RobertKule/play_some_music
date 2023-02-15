@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play Music-Accueil</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="droite maj">
+        <a href="accueil.html" class="form_taille">S'enregistrer</a>
+    </nav>
+    <main>
+        <h1 class="maj">Login</h1> 
+        <form action="accueil.php" method="post" class="arrond colonne ombre">
+        <div class="ligne">
+                <label for="nom" class="form_taille maj">Nom d'utilisateur</label>
+                <input type="text" id="nom" name="nom" maxlength="25" class="form_taille" placeholder="Entrez ici votre nom">
+        </div>
+        <div class="ligne">
+                <label for="mdpass" class="form_taille maj">mot de passe</label>
+                <input type="password" id="mdpass" minlength="4" maxlength="10" size="15" placeholder="votre mot de passe" class="form_taille">
+        </div> 
+        <input type="submit" value="Envoyer" class="form_taille a">
+        </form>
+    </main>
+</body>
+</html>
